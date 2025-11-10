@@ -195,12 +195,19 @@ p {
 
 .grey2-section {
     height: 700px;
+    flex-direction: column;
     justify-content: center;
     display: flex;
     align-items: center;
     padding: 10%;
     background-color: rgb(232, 227, 227);
 }
+
+.feedback {
+   
+
+}
+
 
 .five-section {
     height: 530px;
