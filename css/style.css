@@ -8,8 +8,8 @@
 
 * {
     font-family: sans-serif;
-    }
-    
+}
+
 
 /* ----------------------*/
 
@@ -31,47 +31,54 @@
 
 .navbar {
     display: flex;
-    background-color:rgb(60, 53, 251) ;
+    background-color: rgb(60, 53, 251);
     justify-content: space-between;
     align-items: center;
     padding: 10px 5px;
     width: 800px;
     margin: 0 auto;
-    
+
 
 }
 
- a {
+a {
     color: white;
     text-decoration: none;
-    }
+}
 
-  h2  {
+h2 {
     color: white;
     font-size: 35px;
     padding-top: 80px;
 
-     }
+}
 
-     p {
-        
-     }
+.font-subtitle {
+    color: black;
+    font-size: 35px;
+    padding-top: 80px;
+}
 
+p {
+    color: white;
+    font-size: small;
+    padding-top: 10px;
+}
 
-    .right-login {
-        background-color: white;
-        padding: 10px;
-            border-radius: 30px;
+.p-black {
+    color: black;
+    font-size: 14px;
+    padding-top: 17px;
 }
 
 
+.right-login {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
 
 
-     
-   
-
-   
-         
 
 
 
@@ -87,15 +94,30 @@
     background-size: cover;
     justify-content: center;
     display: flex;
-    align-items: center;
-    padding: 60px;
+    padding: 30px 0;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.discord-button {
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+
 }
 
 
 .first-section {
-    
+
     height: 330px;
- 
+    width: 380px;
+
 }
 
 .white1-section {
@@ -111,19 +133,20 @@
 }
 
 .second-section1 {
-    height: 330px;
-    width: 50%;
+    height: 250px;
+    width: 60%;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    width: 10p 69px;
+
 
 }
 
 .second-section2 {
-    height: 330px;
-    width: 30%;
-    background-color: rgb(229, 82, 209);
+    flex-direction: column;
+    justify-content: center;
     display: flex;
-    border: dashed 1px;
 }
 
 .grey1-section {
@@ -132,23 +155,21 @@
     display: flex;
     align-items: center;
     padding: 10%;
-    background-color: rgb(157, 155, 155);
+    background-color: rgb(232, 227, 227);
 }
 
 .third-section2 {
     height: 330px;
     width: 70%;
-    background-color: rgb(13, 38, 202);
     display: flex;
-    border: dashed 1px;
+
 }
 
 .third-section {
-    height: 330px;
-    width: 30%;
-    background-color: rgb(234, 101, 221);
+    flex-direction: column;
+    justify-content: center;
     display: flex;
-    border: dashed 1px;
+
 
 }
 
@@ -163,95 +184,92 @@
 .fourth-section {
     height: 330px;
     width: 70%;
-    background-color: rgb(9, 117, 199);
+    display: flex;
+}
+
+.fourth-section2 {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.grey2-section {
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    background-color: rgb(232, 227, 227);
+}
+
+.five-section {
+    height: 530px;
+    width: 800px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-1 {
+    height: 330px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 15%;
+    background-color: rgb(30, 30, 30);
+    margin-bottom: 1px;
+    flex-wrap: nowrap;
+
+}
+
+.pink-first-footer {
+    height: 330px;
+    padding-bottom: 39%;
+    width: 25%;
+    background-color: rgb(207, 124, 199);
     display: flex;
     border: dashed 1px;
 }
 
-.fourth-section2 {
+.azul-footer {
+
     height: 330px;
-        width: 30%;
-        background-color: rgb(229, 82, 209);
-        display: flex;
-        border: dashed 1px;
-    }
-    
-    .grey2-section {
-        height: 700px;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        padding: 10%;
-        background-color: rgb(157, 155, 155);
-    }
-    
-    .five-section {
-        height: 530px;
-        width: 800px;
-        background-color: rgb(8, 127, 45);
-        border: dashed 1px;
-    }
-    
-    .footer-1 {
-        height: 330px;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        padding: 15%;
-        background-color: rgb(30, 30, 30);
-        margin-bottom: 1px;
-        flex-wrap: nowrap;
+    width: 15%;
+    background-color: rgb(36, 176, 176);
+    display: flex;
+    border: dashed 1px white;
+    padding-bottom: 39%;
+}
 
-    }
-    
-    .pink-first-footer {
-        height: 330px;
-        padding-bottom: 39%;
-        width: 25%;
-        background-color: rgb(207, 124, 199);
-        display: flex;
-        border: dashed 1px;
-    }
-    
-    .azul-footer {
-    
-        height: 330px;
-        width: 15%;
-        background-color: rgb(36, 176, 176);
-        display: flex;
-        border: dashed 1px white;
-        padding-bottom: 39%;
-    }
+.footer-2 {
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    background-color: rgb(47, 46, 46);
+    flex-wrap: nowrap;
+}
 
-    .footer-2 {
-         height: 50px;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        padding: 3%;
-        background-color: rgb(47, 46, 46);
-        flex-wrap: nowrap;
-    }
+.nav-footer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 2%;
+}
 
-    .nav-footer {
-        background-color: aquamarine;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 800px;
-        padding: 2%;
-    }
+.button-container {
+    background-color: yellowgreen;
+    border: dashed 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .button-container {
-        background-color: yellowgreen;
-        border: dashed 1px black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
 
-    }
+}
 
-    .button {
-         background-color: yellowgreen;
-    }
+.button {
+    background-color: yellowgreen;
+}
